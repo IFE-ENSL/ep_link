@@ -1,0 +1,1 @@
+Etherpad plugin to add links

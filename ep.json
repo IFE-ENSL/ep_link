@@ -1,0 +1,17 @@
+{
+  "parts": [
+    {
+      "name": "link",
+      "client_hooks": {
+        "aceInitialized": "ep_link/static/js/hooks",
+        "aceCreateDomLine": "ep_link/static/js/hooks",
+        "aceAttribsToClasses": "ep_link/static/js/hooks"
+      },
+      "hooks": {
+        "eejsBlock_styles": "ep_link/hooks",
+        "eejsBlock_editbarMenuLeft": "ep_link/hooks",
+        "eejsBlock_scripts": "ep_link/hooks"
+      }
+    }
+  ]
+}

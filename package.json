@@ -1,0 +1,19 @@
+{
+  "name": "ep_link",
+  "version": "0.0.1",
+  "keywords": [
+    "link",
+    "button"
+  ],
+  "description": "Add a link button to the toolbar",
+  "contributors": [
+    {
+      "name": "Baptiste Bouchereau",
+      "email": "baptiste.bouchereau@idci-consulting.fr"
+    }
+  ],
+  "dependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
