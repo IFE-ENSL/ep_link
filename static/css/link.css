@@ -8,3 +8,45 @@
     color: #ff0000;
     font-style: italic;
 }
+/* Modals */
+
+.modal
+{
+    top: 10%;
+    right: 30%;
+    left: 30%;
+    overflow-y: auto;
+}
+
+.modal .modal-body label
+{
+    padding-right: 20px;
+}
+
+/* Bootstrap fixes */
+
+.toolbar
+{
+    font-size: 62.5%;
+}
+
+.modal .table tbody>tr>td
+{
+    vertical-align: middle;
+}
+
+.modal-body
+{
+    max-height: 330px;
+    overflow: auto;
+}
+
+.modal-dialog
+{
+    width: auto;
+}
+
+#myusernameform
+{
+    font-size: 62.5%;
+}
