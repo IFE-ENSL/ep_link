@@ -25,12 +25,14 @@ function createLinkFormModal(textIsSelected) {
     if (textIsSelected) {
         $linkForm = jQuery(
             '<form>'+
+                '<p class="info">En mettant une URL sans le préfixe "http://", vous créez un nouveau cahier</p>'+
                 '<p><label>URL (http://...)</label><input type="text" name="link_value"/></p>'+
             '</form>'
         );
     } else {
         $linkForm = jQuery(
             '<form>'+
+                '<p class="info">En mettant une URL sans le préfixe "http://", vous créez un nouveau cahier</p>'+
                 '<p><label>URL (http://...)</label><input type="text" name="link_value"/></p>'+
                 '<p><label>Texte du lien</label><input type="text" name="link_text"/></p>'+
             '</form>'

@@ -35,6 +35,11 @@
     vertical-align: middle;
 }
 
+.modal .info
+{
+    font-style: italic;
+}
+
 .modal-body
 {
     max-height: 330px;
